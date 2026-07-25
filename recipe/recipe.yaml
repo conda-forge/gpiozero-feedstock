@@ -4,7 +4,7 @@ context:
   # 3.10 floor so the importlib-resources/importlib-metadata backports (only
   # needed on <3.10) can be dropped; noarch recipes can't use selectors.
   python_min: "3.10"
-  version: "2.0.1"
+  version: "2.0.1.post2"
 
 package:
   name: gpiozero
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/gpiozero/gpiozero-${{ version }}.tar.gz
-  sha256: d4ea1952689ec7e331f9d4ebc9adb15f1d01c2c9dcfabb72e752c9869ab7e97e
+  sha256: 001efb2436e14e37902ef3b857406ca1fba8ac3ac7b1f78733a7eefdbff364cf
 
 build:
   number: 0
